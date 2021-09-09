@@ -18,4 +18,4 @@ So there's three different classes: PlotClass, DynamicClass, and ROSClass. The f
 It also uses tkinter (in combination with matplotlib) to:
 1. Provide a field to change the "visualization name"
 2. A button that saves the data with the name, date, and time to a csv file in your local folder
-3. A pause, start, and restart button (only works for DynamicClass). I also began my solution to make it work with ROSClass (by using os.system() calls and clearing the csv file the ROS data is saved to), but didn't have time to finish it.
+3. A pause, start, and restart button (that only works for DynamicClass). I also began my solution to make it work with ROSClass (by using os.system() calls and clearing the csv file where the ROS data is stored), but didn't have time to finish it.
